@@ -15,7 +15,7 @@ const controls = new OrbitControls(camera, renderer.domElement)
 controls.enablePan = false
 controls.maxDistance = 75
 controls.minDistance = 8.2
-controls.enableDamping = true
+controls.enableDamping = false
 
 let pointer = new THREE.Vector2
 let touch = new THREE.Vector2
